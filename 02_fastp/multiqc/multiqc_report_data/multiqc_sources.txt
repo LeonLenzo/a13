@@ -1,0 +1,12 @@
+Module	Section	Sample Name	Source
+fastp	all_sections	inplanta-3KO-020-R1.repaired_inplanta-3KO-020-R2.repaired	/home/leonl/data_analysis/pf2.wheat.rna/toxa13-wheat-rna/qc/fastp_reports/inplanta-3KO-020.fastp.json
+fastp	all_sections	inplanta-3KO-021-R1.repaired_inplanta-3KO-021-R2.repaired	/home/leonl/data_analysis/pf2.wheat.rna/toxa13-wheat-rna/qc/fastp_reports/inplanta-3KO-021.fastp.json
+fastp	all_sections	inplanta-3KO-023-R1.repaired_inplanta-3KO-023-R2.repaired	/home/leonl/data_analysis/pf2.wheat.rna/toxa13-wheat-rna/qc/fastp_reports/inplanta-3KO-023.fastp.json
+fastp	all_sections	inplanta-SN15-016-R1.repaired_inplanta-SN15-016-R2.repaired	/home/leonl/data_analysis/pf2.wheat.rna/toxa13-wheat-rna/qc/fastp_reports/inplanta-SN15-016.fastp.json
+fastp	all_sections	inplanta-SN15-017-R1.repaired_inplanta-SN15-017-R2.repaired	/home/leonl/data_analysis/pf2.wheat.rna/toxa13-wheat-rna/qc/fastp_reports/inplanta-SN15-017.fastp.json
+fastp	all_sections	inplanta-SN15-018-R1.repaired_inplanta-SN15-018-R2.repaired	/home/leonl/data_analysis/pf2.wheat.rna/toxa13-wheat-rna/qc/fastp_reports/inplanta-SN15-018.fastp.json
+fastp	all_sections	inplanta-SN15-019-R1.repaired_inplanta-SN15-019-R2.repaired	/home/leonl/data_analysis/pf2.wheat.rna/toxa13-wheat-rna/qc/fastp_reports/inplanta-SN15-019.fastp.json
+fastp	all_sections	inplanta-Tween-012-R1.repaired_inplanta-Tween-012-R2.repaired	/home/leonl/data_analysis/pf2.wheat.rna/toxa13-wheat-rna/qc/fastp_reports/inplanta-Tween-012.fastp.json
+fastp	all_sections	inplanta-Tween-013-R1.repaired_inplanta-Tween-013-R2.repaired	/home/leonl/data_analysis/pf2.wheat.rna/toxa13-wheat-rna/qc/fastp_reports/inplanta-Tween-013.fastp.json
+fastp	all_sections	inplanta-Tween-014-R1.repaired_inplanta-Tween-014-R2.repaired	/home/leonl/data_analysis/pf2.wheat.rna/toxa13-wheat-rna/qc/fastp_reports/inplanta-Tween-014.fastp.json
+fastp	all_sections	inplanta-Tween-015-R1.repaired_inplanta-Tween-015-R2.repaired	/home/leonl/data_analysis/pf2.wheat.rna/toxa13-wheat-rna/qc/fastp_reports/inplanta-Tween-015.fastp.json

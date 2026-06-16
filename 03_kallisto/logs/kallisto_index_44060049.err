@@ -1,0 +1,10 @@
+
+[build] loading fasta file /scratch/fl3/llenzo/a13/reference/GCF_018294505.1_IWGSC_CS_RefSeq_v2.1_cds_from_genomic.fna
+[build] k-mer length: 31
+[build] warning: replaced 938 non-ACGUT characters in the input sequence
+        with pseudorandom nucleotides
+[build] building MPHF
+[build] creating equivalence classes ... 
+[build] target de Bruijn graph has k-mer length 31 and minimizer length 23
+[build] target de Bruijn graph has 2576351 contigs and contains 90043276 k-mers 
+

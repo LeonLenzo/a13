@@ -1,0 +1,19 @@
+Processing sample: inplanta-SN15-018
+java -ea -Xmx120g -cp /usr/local/opt/bbmap-38.96-0/current/ jgi.SplitPairsAndSingles rp in1=/scratch/fl3/llenzo/a13/reads/raw/inplanta-SN15-018-R1.fastq.gz in2=/scratch/fl3/llenzo/a13/reads/raw/inplanta-SN15-018-R2.fastq.gz out1=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-SN15-018-R1.repaired.fastq.gz out2=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-SN15-018-R2.repaired.fastq.gz outs=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-SN15-018-singletons.fastq.gz tossbrokenreads tossjunk qin=33 -Xmx120g
+Executing jgi.SplitPairsAndSingles [rp, in1=/scratch/fl3/llenzo/a13/reads/raw/inplanta-SN15-018-R1.fastq.gz, in2=/scratch/fl3/llenzo/a13/reads/raw/inplanta-SN15-018-R2.fastq.gz, out1=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-SN15-018-R1.repaired.fastq.gz, out2=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-SN15-018-R2.repaired.fastq.gz, outs=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-SN15-018-singletons.fastq.gz, tossbrokenreads, tossjunk, qin=33, -Xmx120g]
+
+Set INTERLEAVED to false
+Started output stream.
+
+Input:                  	549933876 reads 		68741734500 bases.
+Result:                 	549933876 reads (100.00%) 	68741734500 bases (100.00%)
+Pairs:                  	549933876 reads (100.00%) 	68741734500 bases (100.00%)
+Singletons:             	0 reads (0.00%) 	0 bases (0.00%)
+
+Time:                         	673.338 seconds.
+Reads Processed:        549m 	816.73k reads/sec
+Bases Processed:      68741m 	102.09m bases/sec
+bbrepair complete for inplanta-SN15-018
+  Input reads:    
+  Retained reads:   (0.00%)
+  Discarded:      0

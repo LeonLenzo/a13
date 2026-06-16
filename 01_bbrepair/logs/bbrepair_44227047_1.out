@@ -1,0 +1,26 @@
+Processing sample: inplanta-3KO-021
+java -ea -Xmx120g -cp /usr/local/opt/bbmap-38.96-0/current/ jgi.SplitPairsAndSingles rp in1=/scratch/fl3/llenzo/a13/reads/raw/inplanta-3KO-021-R1.fastq.gz in2=/scratch/fl3/llenzo/a13/reads/raw/inplanta-3KO-021-R2.fastq.gz out1=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-3KO-021-R1.repaired.fastq.gz out2=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-3KO-021-R2.repaired.fastq.gz outs=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-3KO-021-singletons.fastq.gz tossbrokenreads tossjunk qin=33 -Xmx120g
+Executing jgi.SplitPairsAndSingles [rp, in1=/scratch/fl3/llenzo/a13/reads/raw/inplanta-3KO-021-R1.fastq.gz, in2=/scratch/fl3/llenzo/a13/reads/raw/inplanta-3KO-021-R2.fastq.gz, out1=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-3KO-021-R1.repaired.fastq.gz, out2=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-3KO-021-R2.repaired.fastq.gz, outs=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-3KO-021-singletons.fastq.gz, tossbrokenreads, tossjunk, qin=33, -Xmx120g]
+
+Set INTERLEAVED to false
+Started output stream.
+java.lang.AssertionError: 
+Error in /scratch/fl3/llenzo/a13/reads/raw/inplanta-3KO-021-R1.fastq.gz, line 55944488, with these 4 lines:
+@HISEQ:165:C9WE2ANXX:2:1105:2411:60517 1:N:0:
+CCAAATTTGCAGCTTTATCGTCTTCCCATCTTGCTCAACGGTGCACGGTG:1105:2437:60517 1:N:0:
+GTCAGACGT
++
+
+	at stream.FASTQ.quadToRead_slow(FASTQ.java:710)
+	at stream.FASTQ.toReadList(FASTQ.java:659)
+	at stream.FastqReadInputStream.fillBuffer(FastqReadInputStream.java:107)
+	at stream.FastqReadInputStream.nextList(FastqReadInputStream.java:93)
+	at stream.ConcurrentGenericReadInputStream$ReadThread.readLists(ConcurrentGenericReadInputStream.java:681)
+	at stream.ConcurrentGenericReadInputStream$ReadThread.run(ConcurrentGenericReadInputStream.java:657)
+
+Set cris1Active=false
+/usr/local/bin/repair.sh: line 87: 522888 Killed                  java -ea -Xmx120g -cp /usr/local/opt/bbmap-38.96-0/current/ jgi.SplitPairsAndSingles rp in1=/scratch/fl3/llenzo/a13/reads/raw/inplanta-3KO-021-R1.fastq.gz in2=/scratch/fl3/llenzo/a13/reads/raw/inplanta-3KO-021-R2.fastq.gz out1=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-3KO-021-R1.repaired.fastq.gz out2=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-3KO-021-R2.repaired.fastq.gz outs=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-3KO-021-singletons.fastq.gz tossbrokenreads tossjunk qin=33 -Xmx120g
+bbrepair complete for inplanta-3KO-021
+  Input reads:    
+  Retained reads:   (0.00%)
+  Discarded:      0

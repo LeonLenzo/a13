@@ -1,0 +1,41 @@
+Processing sample: inplanta-3KO-022
+java -ea -Xmx120g -cp /usr/local/opt/bbmap-38.96-0/current/ jgi.SplitPairsAndSingles rp in1=/scratch/fl3/llenzo/a13/reads/raw/inplanta-3KO-022-R1.fastq.gz in2=/scratch/fl3/llenzo/a13/reads/raw/inplanta-3KO-022-R2.fastq.gz out1=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-3KO-022-R1.repaired.fastq.gz out2=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-3KO-022-R2.repaired.fastq.gz outs=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-3KO-022-singletons.fastq.gz tossbrokenreads tossjunk qin=33 -Xmx120g
+Executing jgi.SplitPairsAndSingles [rp, in1=/scratch/fl3/llenzo/a13/reads/raw/inplanta-3KO-022-R1.fastq.gz, in2=/scratch/fl3/llenzo/a13/reads/raw/inplanta-3KO-022-R2.fastq.gz, out1=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-3KO-022-R1.repaired.fastq.gz, out2=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-3KO-022-R2.repaired.fastq.gz, outs=/scratch/fl3/llenzo/a13/reads/repaired/inplanta-3KO-022-singletons.fastq.gz, tossbrokenreads, tossjunk, qin=33, -Xmx120g]
+
+Set INTERLEAVED to false
+Started output stream.
+java.lang.AssertionError: 
+Error in /scratch/fl3/llenzo/a13/reads/raw/inplanta-3KO-022-R2.fastq.gz, line 140497468, with these 4 lines:
+@HISEQ:165:C9WE2ANXX:3:1111827FFFFFFFFFFFAAAGCTGCGCTGCCGCTCGCGCTACTCGAGCATCGACCGCTCGGCTCGTTCTCTCGGTCGAAGAAGCATTCTTATCGTCGACTCGCCGAGCATCTCATCTCGTGCCTAGTTTTGGTGGGGATGCTGCGTCC
++
+BBBFF<BFF/FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFBFFFFFFFFFFFFFFFFFFFFFFBFFFFFFFFBFFFFFF
+@HISEQ:165:C9WE2ANXX:3:111185951:142376 2:N:0:TACTTTATAGCAATTCCTCAACTGCGTCCGTCTCGGACTGCGTTTTTTCTTCTTGGATAACCCCCCGGAAGCACTTGTGGGTATGGGGATCGCAAGAGGCTCCTGGAGGGCAAGCCTGGACCGCTC
+
+	at stream.FASTQ.quadToRead_slow(FASTQ.java:710)
+	at stream.FASTQ.toReadList(FASTQ.java:659)
+	at stream.FastqReadInputStream.fillBuffer(FastqReadInputStream.java:107)
+	at stream.FastqReadInputStream.nextList(FastqReadInputStream.java:93)
+	at stream.ConcurrentGenericReadInputStream$ReadThread.readLists(ConcurrentGenericReadInputStream.java:681)
+	at stream.ConcurrentGenericReadInputStream$ReadThread.run(ConcurrentGenericReadInputStream.java:657)
+
+Set cris2Active=false
+java.lang.AssertionError: 
+Error in /scratch/fl3/llenzo/a13/reads/raw/inplanta-3KO-022-R1.fastq.gz, line 673319925, with these 4 lines:
+@HISEQ:165:C9WE2ANXX:3:2105:4155:970707070FFFF70707##
+@HISEQ:16CCATG070FFFF2BBBBBF#
+@HISB/<302:9GAGGGTACCCGTGCTGGCCGTGGCCGCCGTACCCCTGCTGQ:1BF#BFFACTTGGTCCGCCGFACTTCCTGCTGQ:FFFFFFTCCTGFFFFFGCATCACTGTCATACTTCAGAGCATACTACTAC:3:TCACGGGGGGGGFFFFFFFFFFB/<BB9FFB/<BB9FFB/<BB9FFB/<BB9FFB/<BB9FFB/<BB9FFB/<BB9FFB/<BB9FFB/<BB9FFB/<BB9FFB/<BB9FFB/<BB9FFB/<BB9FFB/<BB9FFBFB//BFF
+@HISECTCCGGFFFFFFFFFFFF/<72:9GAGGGTACCCGTGCTGGCCGTGGCCGCGCCTCT90GAGGTACACGCTTCB9FFATAFFFFFCATTGTCC
+
+	at stream.FASTQ.quadToRead_slow(FASTQ.java:710)
+	at stream.FASTQ.toReadList(FASTQ.java:659)
+	at stream.FastqReadInputStream.fillBuffer(FastqReadInputStream.java:107)
+	at stream.FastqReadInputStream.nextList(FastqReadInputStream.java:93)
+	at stream.ConcurrentGenericReadInputStream$ReadThread.readLists(ConcurrentGenericReadInputStream.java:681)
+	at stream.ConcurrentGenericReadInputStream$ReadThread.run(ConcurrentGenericReadInputStream.java:657)
+
+Set cris1Active=false
+Exception in thread "main" java.lang.NullPointerException
+	at jgi.SplitPairsAndSingles.process3_repair(SplitPairsAndSingles.java:537)
+	at jgi.SplitPairsAndSingles.process2(SplitPairsAndSingles.java:285)
+	at jgi.SplitPairsAndSingles.process(SplitPairsAndSingles.java:221)
+	at jgi.SplitPairsAndSingles.main(SplitPairsAndSingles.java:38)

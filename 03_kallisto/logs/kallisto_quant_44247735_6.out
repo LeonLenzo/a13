@@ -1,0 +1,3 @@
+Running Kallisto quant for sample: inplanta-SN15-018
+Kallisto quant complete for inplanta-SN15-018
+Outputs: /scratch/fl3/llenzo/a13/kallisto_quant/inplanta-SN15-018/abundance.tsv, /scratch/fl3/llenzo/a13/kallisto_quant/inplanta-SN15-018/abundance.h5, /scratch/fl3/llenzo/a13/kallisto_quant/inplanta-SN15-018/run_info.json

@@ -1,0 +1,4 @@
+Comparison,Genes_Tested,Genes_Differential,Genes_Non_DE,Percent_DE
+SN15 vs Tween,97911,18333,79578,18.7
+3KO vs Tween,97911,15115,82796,15.4
+3KO vs SN15,97911,529,97382,0.5

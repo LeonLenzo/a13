@@ -1,0 +1,6 @@
+Category,Count
+Total transcripts in reference,142450
+Transcripts tested in DESeq2 (passed filter),97911
+Transcripts DE in at least one comparison,19865
+Transcripts NEVER differential,78046
+Percent never differential (of tested),79.7

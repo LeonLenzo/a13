@@ -1,0 +1,25 @@
+Note: when this module is unloaded, the shell environment will NOT revert to
+its original state, and retain some Spack settings. If you need the original
+shell environment, start a new shell session instead. 
+[1;93m==>[0m Warning: upstream not found: /software/projects/fl3/setonix/2025.08/software/.spack-db/index.json
+[1;93m==>[0m Warning: Failed to initialize repository: '/software/projects/$PAWSEY_PROJECT/$USER/setonix/2025.08/spack_repo'.
+  No repo.yaml found in '/software/projects/$PAWSEY_PROJECT/$USER/setonix/2025.08/spack_repo'
+  To remove the bad repository, run this command:
+      spack repo rm /software/projects/$PAWSEY_PROJECT/$USER/setonix/2025.08/spack_repo
+
+[quant] fragment length distribution will be estimated from the data
+Warning: kallisto was not compiled with HDF5 support so no bootstrapping
+will be performed. Run quant with --plaintext option or recompile with
+HDF5 support to obtain bootstrap estimates.
+[index] k-mer length: 31
+[index] number of targets: 142,450
+[index] number of k-mers: 90,043,276
+[quant] running in paired-end mode
+[quant] will process pair 1: /scratch/fl3/llenzo/a13/reads/trimmed/inplanta-3KO-021-R1.trimmed.fastq.gz
+                             /scratch/fl3/llenzo/a13/reads/trimmed/inplanta-3KO-021-R2.trimmed.fastq.gz
+[quant] finding pseudoalignments for the reads ...[progress] 1M reads processed (67.8% mapped)             [progress] 2M reads processed (67.9% mapped)             [progress] 3M reads processed (67.9% mapped)             [progress] 4M reads processed (67.9% mapped)             [progress] 5M reads processed (67.9% mapped)             [progress] 6M reads processed (67.9% mapped)             [progress] 7M reads processed (67.9% mapped)             [progress] 8M reads processed (67.9% mapped)             [progress] 9M reads processed (67.9% mapped)             [progress] 10M reads processed (67.9% mapped)             [progress] 11M reads processed (67.9% mapped)             [progress] 12M reads processed (67.9% mapped)             [progress] 13M reads processed (67.9% mapped)              done
+[quant] processed 13,369,082 reads, 9,073,478 reads pseudoaligned
+[quant] estimated average fragment length: 158.2
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,000 rounds
+

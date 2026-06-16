@@ -1,0 +1,12 @@
+Sample	Passed Filter	Low Quality	Too Many N	Low Complexity	Too Short	Too Long
+inplanta-3KO-020-R1.repaired_inplanta-3KO-020-R2.repaired	338911330.0	5887810.0	799802.0	nan	20587858.0	0.0
+inplanta-3KO-021-R1.repaired_inplanta-3KO-021-R2.repaired	26738164.0	312280.0	12188.0	nan	831768.0	0.0
+inplanta-3KO-023-R1.repaired_inplanta-3KO-023-R2.repaired	431184236.0	7349134.0	439824.0	nan	12440406.0	0.0
+inplanta-SN15-016-R1.repaired_inplanta-SN15-016-R2.repaired	480288304.0	5723078.0	1232162.0	nan	19924206.0	0.0
+inplanta-SN15-017-R1.repaired_inplanta-SN15-017-R2.repaired	519090738.0	7420188.0	1235392.0	nan	23475268.0	0.0
+inplanta-SN15-018-R1.repaired_inplanta-SN15-018-R2.repaired	506481348.0	8655742.0	1181916.0	nan	33614870.0	0.0
+inplanta-SN15-019-R1.repaired_inplanta-SN15-019-R2.repaired	588921264.0	6740192.0	599594.0	nan	11032180.0	0.0
+inplanta-Tween-012-R1.repaired_inplanta-Tween-012-R2.repaired	553432128.0	10708348.0	838270.0	nan	36616406.0	0.0
+inplanta-Tween-013-R1.repaired_inplanta-Tween-013-R2.repaired	519148600.0	9195698.0	652942.0	nan	34148476.0	0.0
+inplanta-Tween-014-R1.repaired_inplanta-Tween-014-R2.repaired	507367140.0	7503860.0	769058.0	nan	25511328.0	0.0
+inplanta-Tween-015-R1.repaired_inplanta-Tween-015-R2.repaired	522971660.0	10425926.0	1114876.0	nan	40309332.0	0.0

@@ -1,0 +1,17 @@
+# Kallisto quantification output (large raw data)
+03_kallisto/kallisto_quant/
+
+# DESeq2 binary objects and large result tables (regenerable from scripts)
+*.rds
+04_deseq2/results/deseq_results_*.csv
+04_deseq2/results/gene_list_*.csv
+
+# Large reference files (download instructions in scripts)
+reference/mart_export.txt
+reference/ncbi_to_ensembl.tsv
+reference/*.fna
+reference/*.fna.gz
+reference/*.idx
+
+# Raw reads
+reads/

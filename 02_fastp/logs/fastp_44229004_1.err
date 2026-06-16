@@ -1,0 +1,91 @@
+[15:33:06] start to load data of read1 
+[15:33:06] start to load data of read2 
+[15:33:07] Read2: loaded 1M reads 
+[15:33:07] Read1: loaded 1M reads 
+[15:33:10] Read2: loaded 2M reads 
+[15:33:10] Read1: loaded 2M reads 
+[15:33:13] Read2: loaded 3M reads 
+[15:33:13] Read1: loaded 3M reads 
+[15:33:15] Read2: loaded 4M reads 
+[15:33:15] Read1: loaded 4M reads 
+[15:33:18] Read2: loaded 5M reads 
+[15:33:18] Read1: loaded 5M reads 
+[15:33:21] Read2: loaded 6M reads 
+[15:33:21] Read1: loaded 6M reads 
+[15:33:23] Read2: loaded 7M reads 
+[15:33:23] Read1: loaded 7M reads 
+[15:33:26] Read2: loaded 8M reads 
+[15:33:26] Read1: loaded 8M reads 
+[15:33:28] Read2: loaded 9M reads 
+[15:33:29] Read1: loaded 9M reads 
+[15:33:31] Read2: loaded 10M reads 
+[15:33:31] Read1: loaded 10M reads 
+[15:33:34] Read2: loaded 11M reads 
+[15:33:34] Read1: loaded 11M reads 
+[15:33:36] Read2: loaded 12M reads 
+[15:33:37] Read1: loaded 12M reads 
+[15:33:39] Read2: loaded 13M reads 
+[15:33:39] Read1: loaded 13M reads 
+[15:33:42] Read2: loading completed with 13948 packs 
+[15:33:42] Read1: loading completed with 13948 packs 
+[15:33:42] thread 6 data processing completed 
+[15:33:42] thread 6 finished 
+[15:33:42] thread 5 data processing completed 
+[15:33:42] thread 5 finished 
+[15:33:42] thread 4 data processing completed 
+[15:33:42] thread 4 finished 
+[15:33:42] thread 7 data processing completed 
+[15:33:42] thread 7 finished 
+[15:33:42] thread 3 data processing completed 
+[15:33:42] thread 3 finished 
+[15:33:42] thread 8 data processing completed 
+[15:33:42] thread 8 finished 
+[15:33:42] thread 1 data processing completed 
+[15:33:42] thread 1 finished 
+[15:33:42] thread 2 data processing completed 
+[15:33:42] thread 2 finished 
+[15:33:42] /scratch/fl3/llenzo/a13/reads/trimmed/inplanta-3KO-021-R2.trimmed.fastq.gz writer finished 
+[15:33:44] /scratch/fl3/llenzo/a13/reads/trimmed/inplanta-3KO-021-R1.trimmed.fastq.gz writer finished 
+[15:33:44] start to generate reports
+ 
+Read1 before filtering:
+total reads: 13947200
+total bases: 1743400000
+Q20 bases: 1653504036(94.8436%)
+Q30 bases: 1574267515(90.2987%)
+
+Read2 before filtering:
+total reads: 13947200
+total bases: 1743400000
+Q20 bases: 1593180851(91.3836%)
+Q30 bases: 1510882726(86.663%)
+
+Read1 after filtering:
+total reads: 13369082
+total bases: 1600584531
+Q20 bases: 1548294980(96.7331%)
+Q30 bases: 1483061618(92.6575%)
+
+Read2 after filtering:
+total reads: 13369082
+total bases: 1584952840
+Q20 bases: 1525738991(96.264%)
+Q30 bases: 1456205937(91.8769%)
+
+Filtering result:
+reads passed filter: 26738164
+reads failed due to low quality: 312280
+reads failed due to too many N: 12188
+reads failed due to too short: 831768
+reads with adapter trimmed: 4142842
+bases trimmed due to adapters: 66119475
+
+Duplication rate: 7.73591%
+
+Insert size peak (evaluated by paired-end reads): 125
+
+JSON report: logs/fastp_reports/inplanta-3KO-021.fastp.json
+HTML report: logs/fastp_reports/inplanta-3KO-021.fastp.html
+
+fastp --in1 /scratch/fl3/llenzo/a13/reads/repaired/inplanta-3KO-021-R1.repaired.fastq.gz --in2 /scratch/fl3/llenzo/a13/reads/repaired/inplanta-3KO-021-R2.repaired.fastq.gz --out1 /scratch/fl3/llenzo/a13/reads/trimmed/inplanta-3KO-021-R1.trimmed.fastq.gz --out2 /scratch/fl3/llenzo/a13/reads/trimmed/inplanta-3KO-021-R2.trimmed.fastq.gz --thread 8 -5 -3 -M 30 --html logs/fastp_reports/inplanta-3KO-021.fastp.html --json logs/fastp_reports/inplanta-3KO-021.fastp.json --verbose 
+fastp v0.23.4, time used: 38 seconds

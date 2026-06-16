@@ -1,0 +1,6 @@
+Condition,Transcripts_Expressed,Percent_of_Reference
+SN15,92936,65.2
+3KO,88976,62.5
+Tween,96692,67.9
+Any condition (union),101954,71.6
+Passed DESeq2 filter (>=10 in >=2 samples),97588,68.5
