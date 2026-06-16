@@ -1,0 +1,13 @@
+{
+	"n_targets": 142450,
+	"n_bootstraps": 0,
+	"n_processed": 253240674,
+	"n_pseudoaligned": 172845404,
+	"n_unique": 116199355,
+	"p_pseudoaligned": 68.3,
+	"p_unique": 45.9,
+	"kallisto_version": "0.50.1",
+	"index_version": 13,
+	"start_time": "Tue Jun 16 08:47:37 2026",
+	"call": "kallisto quant -i /scratch/fl3/llenzo/a13/reference/GCF_018294505.1_v2.1_cds.idx -o /scratch/fl3/llenzo/a13/kallisto_quant/inplanta-SN15-018 -b 100 -t 18 /scratch/fl3/llenzo/a13/reads/trimmed/inplanta-SN15-018-R1.trimmed.fastq.gz /scratch/fl3/llenzo/a13/reads/trimmed/inplanta-SN15-018-R2.trimmed.fastq.gz"
+}

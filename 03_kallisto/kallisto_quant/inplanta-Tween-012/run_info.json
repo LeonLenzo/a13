@@ -1,0 +1,13 @@
+{
+	"n_targets": 142450,
+	"n_bootstraps": 0,
+	"n_processed": 276716064,
+	"n_pseudoaligned": 187173582,
+	"n_unique": 115825092,
+	"p_pseudoaligned": 67.6,
+	"p_unique": 41.9,
+	"kallisto_version": "0.50.1",
+	"index_version": 13,
+	"start_time": "Tue Jun 16 08:47:37 2026",
+	"call": "kallisto quant -i /scratch/fl3/llenzo/a13/reference/GCF_018294505.1_v2.1_cds.idx -o /scratch/fl3/llenzo/a13/kallisto_quant/inplanta-Tween-012 -b 100 -t 18 /scratch/fl3/llenzo/a13/reads/trimmed/inplanta-Tween-012-R1.trimmed.fastq.gz /scratch/fl3/llenzo/a13/reads/trimmed/inplanta-Tween-012-R2.trimmed.fastq.gz"
+}

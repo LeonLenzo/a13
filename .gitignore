@@ -1,5 +1,6 @@
-# Kallisto quantification output (large raw data)
-03_kallisto/kallisto_quant/
+# Kallisto quantification output (large raw data — keep run_info.json)
+03_kallisto/kallisto_quant/**/abundance.h5
+03_kallisto/kallisto_quant/**/abundance.tsv
 
 # DESeq2 binary objects and large result tables (regenerable from scripts)
 *.rds
